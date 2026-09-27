@@ -1,0 +1,10 @@
+[
+  { "id": "s1", "title": "Casa al río", "city": "Corrientes", "price": 42, "guests": 4, "rating": 4.8, "type": "Casa" },
+  { "id": "s2", "title": "Loft centro", "city": "Corrientes", "price": 28, "guests": 2, "rating": 4.6, "type": "Loft" },
+  { "id": "s3", "title": "Cabaña yerba", "city": "Santo Tomé", "price": 35, "guests": 3, "rating": 4.9, "type": "Cabaña" },
+  { "id": "s4", "title": "Patio con parra", "city": "Curuzú Cuatiá", "price": 22, "guests": 2, "rating": 4.7, "type": "Casa" },
+  { "id": "s5", "title": "Quincho grande", "city": "Mercedes", "price": 55, "guests": 8, "rating": 4.5, "type": "Casa" },
+  { "id": "s6", "title": "Depto plaza", "city": "Goya", "price": 31, "guests": 3, "rating": 4.4, "type": "Depto" },
+  { "id": "s7", "title": "Estancia breve", "city": "Mercedes", "price": 70, "guests": 6, "rating": 4.9, "type": "Estancia" },
+  { "id": "s8", "title": "Monoambiente", "city": "Corrientes", "price": 18, "guests": 1, "rating": 4.2, "type": "Depto" }
+]

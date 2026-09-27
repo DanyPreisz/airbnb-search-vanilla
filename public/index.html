@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stays · Vanilla JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <strong>Alojamientos</strong>
+      <form id="form">
+        <input id="q" placeholder="Ciudad o tipo" />
+        <input id="guests" type="number" min="1" value="1" />
+        <input id="max" type="number" min="10" value="80" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+    <p class="lede" id="count"></p>
+    <div class="grid" id="grid"></div>
+    <aside id="modal" hidden>
+      <div class="sheet">
+        <button type="button" id="close">Cerrar</button>
+        <div id="detail"></div>
+      </div>
+    </aside>
+    <script src="app.js"></script>
+  </body>
+</html>
